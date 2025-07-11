@@ -28,11 +28,12 @@ Un potente script Python che permette di confrontare visivamente due modelli 3D 
 
 ### Utilizzo Base
 1. **Apri FreeCAD**
-2. **Carica i modelli**: Importa almeno due file STEP che vuoi confrontare
+2. **Carica i modelli**: Importa due file STEP che vuoi confrontare
 3. **Esegui lo script**: 
    - Vai su `Macro` → `Macro...`
    - Seleziona `step_diff.py` ed esegui
-4. **Visualizza i risultati**: Un nuovo documento mostrerà il confronto con codifica a colori
+     -Oppure trascinando lo script sopra la console Python in Freecad
+4. **Visualizza i risultati**: Un nuovo modello mostrerà il confronto con codifica a colori
 
 ### Esempio Pratico
 ```python
@@ -118,17 +119,7 @@ TOLLERANZA_GEOMETRICA = 1e-3    # Precisione operazioni booleane
 
 ## 🤝 Contributi
 
-I contributi sono benvenuti! Per contribuire:
-
-1. Fai un fork del repository
-2. Crea un branch per la tua feature (`git checkout -b feature/AmazingFeature`)
-3. Committa le modifiche (`git commit -m 'Add some AmazingFeature'`)
-4. Push al branch (`git push origin feature/AmazingFeature`)
-5. Apri una Pull Request
-
-## 📄 Licenza
-
-Questo progetto è distribuito sotto licenza MIT. Vedi il file `LICENSE` per i dettagli.
+I contributi sono benvenuti!
 
 ## 🙏 Riconoscimenti
 
