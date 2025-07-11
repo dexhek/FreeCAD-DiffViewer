@@ -18,7 +18,7 @@ Un potente script Python che permette di confrontare visivamente due modelli 3D 
 
 - **FreeCAD** (versione 0.19 o superiore)
 - **Python** integrato in FreeCAD
-- Due o più file STEP da confrontare
+- Due file STEP aperti da confrontare
 
 ## 🚀 Installazione e Utilizzo
 
